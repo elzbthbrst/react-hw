@@ -1,0 +1,38 @@
+.App {
+  width: 1440px;
+  margin: 0 auto;
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-link {
+  text-decoration: none;
+
+}
+
+.main {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navigation {
+  
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+
+
+}
+
+.navigation-link {
+  margin-bottom: 10px;
+}
+.article {
+  width: 900px;
+  margin: 0;
+}
+
