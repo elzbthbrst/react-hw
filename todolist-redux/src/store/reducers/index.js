@@ -23,10 +23,7 @@ export default function rootReducer(state = initialState, { type, payload }) {
             ...state,
             list: [
                 ...state.list,
-                {
-                    ...payload,
-                    id: Math.random()
-                }
+                payload
             ]
         }
         case ACTION_REMOVE:
