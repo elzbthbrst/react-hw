@@ -1,12 +1,11 @@
 import TodoItem from './TodoItem'
 
-export default function TodoList({list, onEditTodo}) {
+    export default function TodoList({list}) {
     
     return (
         <ul id="todoList">
             {list.map(todo => (
             <TodoItem
-            onEditTodo = {onEditTodo}
             key = {todo.id}
             todo = {todo}/>
             ))}
