@@ -1,0 +1,29 @@
+.label{
+    display: flex;
+    width: 520px;
+    justify-content: space-around;
+}
+/* .error_container {
+    display: flex;
+    width: 520px;
+    justify-content: space-around;
+    
+} */
+
+.error_item {
+    color: red;
+    width: 180px;
+}
+
+.input_container {
+    display: flex;
+}
+
+.input {
+    display: block;
+}
+
+.button {
+    height: 20px;
+
+}
